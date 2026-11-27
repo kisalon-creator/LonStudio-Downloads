@@ -16,9 +16,9 @@ LonStudio Downloader が、すべてのファイルをこのリポジトリの R
 署名されたダウンロード情報と全ファイルの SHA-256 を確認してから、インストーラーを起動します。
 途中で止めても、次回は続きから再開します。
 
-手動でダウンロードする場合は、Release の `LonStudio_Setup_1.0.0.exe` と
-`LonStudio_Setup_1.0.0-1.bin` ～ `-9.bin` を**すべて同じフォルダー**に保存し、
-`SHA256SUMS.txt` と一致することを確認してから `LonStudio_Setup_1.0.0.exe` を実行してください。
+手動でダウンロードする場合は、Release の `LonStudio_Setup_1.0.1.exe` と
+`LonStudio_Setup_1.0.1-1.bin` ～ `-9.bin` を**すべて同じフォルダー**に保存し、
+`SHA256SUMS.txt` と一致することを確認してから `LonStudio_Setup_1.0.1.exe` を実行してください。
 
 ## 動作環境
 
@@ -27,21 +27,21 @@ LonStudio Downloader が、すべてのファイルをこのリポジトリの R
 - 空き容量：インストール先のCドライブに約45GB（インストーラーの保存先を含めて70GB以上を推奨）
 - インターネット接続
 
-## 無料体験とライセンス
+## ライセンスキー
 
-ダウンロードとインストールに購入は必要ありません。インストール後は無料体験として利用できます。
-製品版（買い切り）のライセンスキーは、公式サイトの案内に沿って購入後にお渡しします。
-LonStudio の「ライセンスキーを認証」に入力すると製品版になります。
+LonStudio のご利用にはライセンスキーが必要です（無料体験はありません）。
+ライセンスキーは Discord でのご購入後にお渡しします。
+LonStudio を初めて起動すると表示される画面にライセンスキーを入力すると、利用を開始できます。
 
 ## 「Windows によって PC が保護されました」と表示された場合
 
-`LonStudio_Downloader.exe` と `LonStudio_Setup_1.0.0.exe` にはコード署名がありません。
+`LonStudio_Downloader.exe` と `LonStudio_Setup_1.0.1.exe` にはコード署名がありません。
 初回の起動時に Microsoft Defender SmartScreen の確認画面が表示されることがあります。
 「詳細情報」→「実行」を選ぶと続行できます。
 心配な場合は、ファイルの SHA-256 が Release に記載の値と一致することを確認してください。
 
 ```powershell
-Get-FileHash .\LonStudio_Setup_1.0.0.exe -Algorithm SHA256
+Get-FileHash .\LonStudio_Setup_1.0.1.exe -Algorithm SHA256
 ```
 
 ## ライセンス
